@@ -1,0 +1,29 @@
+# Testing Five Layer Sigmoid 
+sudo python five_layers_sigmoid_predict.py bw_a2_small.jpg
+sudo python five_layers_sigmoid_predict.py bw_a3_small.jpg 
+sudo python five_layers_sigmoid_predict.py bw_e1_small.jpg 
+sudo python five_layers_sigmoid_predict.py bw_e2_small.jpg 
+sudo python five_layers_sigmoid_predict.py bw_e3_small.jpg 
+
+sudo python opencv_five_layers_sigmoid_predict.py a2.jpg
+sudo python opencv_five_layers_sigmoid_predict.py a3.jpg
+sudo python opencv_five_layers_sigmoid_predict.py e1.jpg
+sudo python opencv_five_layers_sigmoid_predict.py e2.jpg
+sudo python opencv_five_layers_sigmoid_predict.py e3.jpg
+ 
+
+# Testing CNN
+sudo python opencv_mnistcnnpredict.py a2.jpg
+sudo python opencv_mnistcnnpredict.py a3.jpg
+sudo python opencv_mnistcnnpredict.py e1.jpg
+sudo python opencv_mnistcnnpredict.py e2.jpg
+sudo python opencv_mnistcnnpredict.py e3.jpg
+
+sudo python mnistcnnpredict.py bw_a2_small.jpg 
+sudo python mnistcnnpredict.py bw_a3_small.jpg 
+sudo python mnistcnnpredict.py bw_e1_small.jpg 
+sudo python mnistcnnpredict.py bw_e2_small.jpg 
+sudo python mnistcnnpredict.py bw_e3_small.jpg
+
+
+ 
