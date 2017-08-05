@@ -1,0 +1,1 @@
+aws rekognition detect-faces --image '{"S3Object":{"Bucket":"baucket_name","Name":"image_name"}}' --attributes "ALL" --region us-west-2 --profile profile_name
