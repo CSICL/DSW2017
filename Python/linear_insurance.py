@@ -94,6 +94,6 @@ dataset = load_csv(filename)
 for i in range(len(dataset[0])):
 	str_column_to_float(dataset, i)
 # evaluate algorithm
-split = 0.65
+split = 0.5
 rmse = evaluate_algorithm(dataset, simple_linear_regression, split)
 print('RMSE: %.3f' % (rmse))
